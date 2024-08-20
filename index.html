@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <title>Aventura em Arton</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>
+                A Aliança Negra dos goblinoides avança implacável sobre o Reinado. Cultistas de Sszzaas tecem intrigas e conspirações. O Dragão-Rei Sckhar exige obediência e adoração. No subterrâneo, o Império Troll planeja invadir o mundo da superfície. E, vindos de outra realidade, os Lordes da Tormenta lançam tempestades de sangue e demônios. Bem vindo a Arton! Você é um aventureiro em busca de riquezas na cidade de Nova Melpetrim. Com um bocados de Tibares, você acaba comprando um mapa do tesouro, com pistas para ele.
+            <button class="btn-proximo" data-proximo="1">Prosseguir com as pistas dadas pelo mapa</button>
+            <button class="btn-proximo" data-proximo="2">Desistir da ideia de aventuras, pois são muito perigosas.</button>
+            </p>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>
+            Caminhando pelas estradas de Arton, você chega em Nimbarann, e logo pede informações sobre um tesouro próximo da cidade, aonde um campones responde haver um próximo a floresta. Mas você nota que o mapa marca em uma caverna, qual pista seguir?
+            <button class="btn-proximo" data-proximo="3">Seguir o mapa.</button>
+            <button class="btn-proximo" data-proximo="4">Seguir a dica do campones.</button>
+            </p>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="cenario-passo2.png" alt="">
+            <p>Você percebe que está vida não é para ti, então decide voltar para a casa de seus pais e trabalhar na fazenda, recebendo miseros 1T$ por semana.</p>
+        </div>
+        <div class="passo" id="passo-3">
+            <p> Seguindo as instruções do mapa, você chega ao que paresse uma caverna em ruinas. Você acende seu lampião e arruma suas provições, e faz uma prece rapida aos deuses por proteção.
+                <button class="btn-proximo" data-proximo="5">Seguir com o seu objetivo.</button>
+            </p>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Seguindo as orientações do campones, você chega a floresta, mas percebe não haver tesouro nenhum, sendo a única coisa um grupo de bandidos que te cercam e roubam todas as suas moedas. Frustado você retorna seu caminho.
+                <button class="btn-proximo" data-proximo="3">Seguir o mapa.</button>
+            </p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Adentrando as ruínas, você logo percebe que ela já foi utilizada a séculos e séculos atrás, pois há inscrinções na língua anão e ferramentas dos próprios. Até que uma bifurcação aparesse em sua frente, forçando a fazer uma escolha.
+                <button class="btn-proximo" data-proximo="6">Ir pela esquerda.</button>
+                <button class="btn-proximo" data-proximo="7">Ir pela direita.</button> 
+            </p>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Seguindo a esquerda, você logo se de para com engrenagens e enigmas, que com alguns bons minutos você consegue resolve-los. Como recompesa, eles revelam um caminho até a cidade escondida dos anões, que você os segue com entusiasmo.
+                <button class="btn-proximo" data-proximo="8">Explorar a cidade escondida dos anões.</button>
+            </p>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>A bifurcação a direita leva somente a uma parede de pedras com  mais palavras na lingua dos anões. Mas o que está escrito logo chama sua atenção, pois fala de uma cidade escondida dos anões ao outro lado da bifurcação. Você logo retorna com esperanças renovadas.
+                <button class="btn-proximo" data-proximo="8">Retornar a bifurcação a esquerda.</button>
+            </p>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="cenario-passo8.png" alt="">
+            <p>Ao chegar a cidade, você descobre ferramentas e engenhocas que fariam qualquer inventor pular de felicidade. você se dedica a explorar o local e escrever sobre ele em seu diário!</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
